@@ -18,19 +18,11 @@ module.exports = {
 
   production: {
     client: 'pg',
-    connection: {
-      connectionString,
-      ssl : {
-        rejectUnauthorized:false
-      }
-    },
-    pool: {
-      min: 2,
-      max: 10
-    },
+    connection: 'postgres://derlasgqvqqhrd:abec1b09723f6ec047fbea80784de1aa2c7fa349cf4b870a6b007419daa483ff@ec2-18-206-20-102.compute-1.amazonaws.com:5432/d20hod2kh31e03'
     migrations: {
-      tableName: 'knex_migrations_trw'
-    }
-  }
+        directory: './data/migrations',
+    },
+    seeds: { directory: './data/seeds' },
+}
 
 };
