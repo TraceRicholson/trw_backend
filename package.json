@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start:knex":"npx knex migrate:rollback && npx knex migrate:latest && npx knex seed:run",
-    "start": "nodemon ./bin/www && npm run start:knex",
+    "start": "npm run start:knex && nodemon ./bin/www",
     "migrate": "npx knex migrate:latest && npx knex seed:run"
   },
   "dependencies": {
