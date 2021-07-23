@@ -18,12 +18,10 @@ module.exports = {
 
   production: {
     client: 'pg',
-    connection: {
-      'postgres://derlasgqvqqhrd:abec1b09723f6ec047fbea80784de1aa2c7fa349cf4b870a6b007419daa483ff@ec2-18-206-20-102.compute-1.amazonaws.com:5432/d20hod2kh31e03',
+    connection: 'postgres://derlasgqvqqhrd:abec1b09723f6ec047fbea80784de1aa2c7fa349cf4b870a6b007419daa483ff@ec2-18-206-20-102.compute-1.amazonaws.com:5432/d20hod2kh31e03',
       ssl : {
         rejectUnauthorized:false
-      }
-    }
+      },
 
     migrations: { directory: __dirname + "/migrations"},
     seeds: { directory: __dirname + "/seeds"},
