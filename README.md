@@ -1,5 +1,5 @@
 # Resfeber Studios (backend)
-Do you hate when you go to find a recipe and you have to read a person's entire life story before they'll give you the actual recipe?  Then Robot Kitchen is the solution for all your recipe needs.  Read on to find out more!
+This repo is a personal project, where I have built out a portfolio to display all the work I've done DBA Resfeber Studios.
 
 # Table of Contents:
 [Description](#what-exactly-is-this)<br/>
@@ -12,48 +12,43 @@ Do you hate when you go to find a recipe and you have to read a person's entire 
 [Licensing](#licensing)<br/>
 
 # What exactly is this?
-We're so glad you asked.  Robot Kitchen is a website containing a select, currated list of recipes for your tasting enjoyment.  It's a simple way to get the recipe you want without having to read 20 paragraphs about a person.  This really is the ultimate recipe website you've been searching for your whole life.
+Resfeber Studios is my side project, and this website is a place to showcase my work and give people an avenue to reach out.
 
 # How do I install this?
 Easy!  See steps 1 - 53 below.
 
-Kidding.
+Kidding.  As this is a personal project, this repo is copyrighted and unavailable for personal use.  :(
 
-The database for this project was constructed using PostgreSQL.  These instructions assume you already have PostgreSQL installed.
-
-1: Fork and clone this to your desktop.<br/>
-2: Open the project file, and cd into "backend" and run npm-instll from the command line.<br/>
-3:  Repeat step 2, but run the command in "frontend" instead.<br/>
-4:  Alter "knexfile.js" development section to connect to your specific database instance using your unique username and password.<br/>
-5:  Start up your PostgreSQl database.  From within the "backend" folder run: "knex migrate:latest" and "knex seed:run" respectively to create the tables and populate them.<br/>
-6:  From witin backend, run npx nodemon.<br/>
-7:  From within frontend, run npm start.<br/>
-8:  That's it.  You shoul now be able to visit localhost:3000 and play around with the site!<br/>
-
-OR, if you want to be lazy, visit the semi-functioning site hosted at this AWS link: https://master.d2szkaby7yyies.amplifyapp.com/<br/>
+If you would like to visit the site, you are more than welcome to do so at: https://www.resfeberstudios.com
 
 
 
 # How do I use this?
-This part really is simple.  Upon arriving to the home page, click the recipes tab at the top.  This will bring you to a page containing all the recipes.  From here, you are able to browse our strictly currated selection to find a recipe you like.  Once you've settled on one, you can either click the picture to learn more, or add the recipe to your favorites.  To view your favorites, click on the favorites tab in the navigation bar.  That's it!
+
+Click on this link: https://www.resfeberstudios.com
 
 # Related Projects:
-Absolutely nothing.
+Frontend for this projet: https://github.com/TraceRicholson/trw_frontend_two
 
 # Who created this thing anyway?
-That's a fantastic question.  One we definitely have an answer to.  First, we'll need you to sign a Non-Disclosure Agreement (NDA).  Just in case the "Ricky" incident happens again.  Poor Ricky...
+That's a fantastic question.  One we definitely have an answer to.  First, we'll need you to sign a Non-Disclosure Agreement (NDA).  Just in case the "Jamie" incident happens again.  First Ricky, and now Jamie.  Poor Jamie...
 
 Now that you've signed that, below is a list of our team members and GitHub usernames in case you want to see other random projects we've created:<br/>
 
-Noah Loy (noahloy)<br/>
-Aileen Ocampo (aileenocampo)<br/>
+
 Trace Richolson (TraceRicholson)<br/>
-Eric Samuels (blackpowerade)<br/>
+Ha.  Gotcha.  It's just me. :)
+
 
 # Want to contribute?
 Too bad, you can't.  This project is for cool kids only. :(
 
-# What are our plans for the future?
+# What are your plans for the future?
 E V E R Y T H I N G
+- Enable contact form submission.
+- Setup login credentails to lock out the admin page from hooligans.
+- Add more photos.
+- ?
 
 # Licensing
+This website and repo are property and coprighted by Resfeber Studios, LLC.  Any personal use is unauthorized.
