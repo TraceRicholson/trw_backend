@@ -18,7 +18,7 @@ exports.seed = function(knex) {
         { title : 'Learning To Love The World And Myself', category: 'nature', description: 'A sunset in Eau Claire, WI, as seen through some golden leaves.', metadata: 'metadata test', image_url: 'https://www.dropbox.com/s/0hnjbkpo15vol7k/Richolson%2C%20Trace.%20LEARNING%20TO%20LOVE%20THE%20WORLD%2C%20MYSELF%2C%20AND%20HIM%20series%2C%201%20of5%20%28SERENITY%29.%20archival%20pigment%20ink%20on%20paper%2C%206.6%20x%209.9%20in%2C%202016.jpg?raw=1'},
         { title : 'Watercolor', category: 'nature', description: 'A sunset in caught from Fort Pickens National Park', metadata: 'metadata test', image_url: 'https://www.dropbox.com/s/lsh62rasmw4vtbd/DSC_0974.jpg?raw=1'},
         { title : 'Home Team', category: 'nature', description: 'A hawk rests at it\'s home in Fort Pickens National Park.', metadata: 'metadata test', image_url: 'https://www.dropbox.com/s/jnqp1k8h0wzyjgt/DSC_0590.jpg?raw=1'},
-        { title : 'Through The Leaves', category: 'nature', description: 'A sunset in Eau Claire, WI, as seen through some golden leaves.', metadata: 'metadata test', image_url: 'https://www.dropbox.com/s/3s36vnqz18sh8vd/DSC_1297.jpg?raw=1'}
+        { title : 'Through The Leaves', category: 'nature', description: 'A sunset in Eau Claire, WI, as seen through some golden leaves.', metadata: 'metadata test', image_url: 'https://www.dropbox.com/s/3s36vnqz18sh8vd/DSC_1297.jpg?raw=1'},
 
         //LIVE
         { title : 'Halestorm.1', category: 'live', description: 'Lzzy Hale of Halestorm holds up her guitar after performing a song.', metadata: 'metadata test', image_url: 'https://www.dropbox.com/s/v0s1ymg71auvklr/Live%20Here-20.jpg?raw=1'},
